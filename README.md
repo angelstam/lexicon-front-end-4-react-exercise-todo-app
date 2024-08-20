@@ -34,8 +34,8 @@ All logik kommer att hanteras inom en enda komponent, vilket gör det enklare at
 * Andra timmen: Lägg till visning av uppgifter och möjligheten att markera som utförd.
 * Tredje timmen: Lägg till ta bort-funktionaliteten och finslipa gränssnittet med enklare stil.
 #### Bonus (om tiden tillåter)
-*Lägg till en räknare som visar hur många uppgifter som är kvar att göra.
-*Lägg till en knapp för att rensa alla utförda uppgifter.
+* Lägg till en räknare som visar hur många uppgifter som är kvar att göra.
+* Lägg till en knapp för att rensa alla utförda uppgifter.
 #### Lärdomar
 * Grunderna i React (komponenter, state, eventhantering).
 * Användning av TypeScript för att definiera typer och säkerställa typkontroll.
