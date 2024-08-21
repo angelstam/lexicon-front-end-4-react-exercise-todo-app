@@ -1,0 +1,45 @@
+.done {
+    text-decoration: line-through;
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1rem;
+    align-items: baseline;
+
+    & h2 {
+        grid-column: span 3;
+    }
+}
+
+button {
+    font-size: 0.8rem !important;
+}
+
+dt {
+    text-align: left;
+    font-weight: bold;
+}
+
+dd {
+    text-align: right;
+
+    & button {
+        margin-left: 1rem;
+    }
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    text-align: left;
+
+    & button {
+        float: right;
+    }
+}
